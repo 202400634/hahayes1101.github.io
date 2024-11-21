@@ -1,49 +1,35 @@
-<html>
-    <head><metacharset="utf-8">
-    <title>셀렉터만들기</title>
-    <style>
-        h3 { 
-text-align : right; /* 오른쪽 정렬 */
- }
-    h3, li { /* 태그이름셀렉터*/
-    color : brown;
-    }
-    div>div>strong{/* 자식셀렉터*/
-    background : yellow;
-    }
-    ulstrong { /* 자손셀렉터*/
-    color : dodgerblue;
-    }
-    .warning { /* class 셀렉터*/
-    color : red;
-    }
-    body.main{ /* class 셀렉터*/
-    background : pink; 
-   }
-    #list { /* id 셀렉터*/
-    background : mistyrose;
-    }
-    #list span{ /* 자손셀렉터*/
-    color : forestgreen;
-    }
-    h3:first-letter{ /* 가상클래스셀렉터*/
-    color : red;
-    } 
-   li:hover{/* 가상클래스셀렉터*/
-    background : yellowgreen;
-    }
-</style></head>
- <body class="main">
- <h4>무엇이든 물어보세요! 해결사 척척 페이지</h4>
- <h3>2020400634 이예린</h3>
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>Need_robot.com</title>
+ <style>
+ /* CSS 스타일 시트 작성*/
+ body { background-color : rgb(168, 168, 150); } 
+h3 { color : green; }
+ hr { border : 5px solid yellowgreen; }
+ span { color : blue; font-size : 35px; }
+ </style>
+ </head>
+ <body>
+ <h3>무엇이든 물어보세요! 해결사 척척 페이지</h3>
  <hr>
- <div> 
-<div>도움이 필요한 일에<strong>필요봇 페이지</strong>를 찾아주세요!><</div>
+ <p>도움이 필요할 때 <span>필요봇 페이지</span>를 찾아주세요!</p>
+ -필요봇 페이지 닷컴-</h3>
+ <hr>
+ <p>도움 내역은 다음과 같습니다.</p>
+ #list {background: orange;}
  <ul id="list">
- <li><span>청소 부문</span></li>
- <li><strong>프로그램 부문</strong></li>
- <li>만들기 부문</li>
+   <li><a href="#clean">청소 부문</a>
+   <li><a href="#programm">프로그램 부문</a>
+   <li><a href="#make">만들기 부문</a>
  </ul>
- </div>
+ <h3 id="clean">청소 부문</h3>
+ Love me tender, Love me sweet, Never let me go.<br>
+ You have made my life complete, <br>
+ And I love you so.<br>
+ Love me tender, Love me true, <br>
+ All my dreams fulfilled.<br>
+ For my darling I love you, And I always will.<br>
  </body>
  </html>
