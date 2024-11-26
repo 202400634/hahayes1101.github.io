@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head><metacharset="utf-8">
     <title>아침에 먹으면 좋은 음식</title>
@@ -38,7 +39,39 @@ text-align : right; /* 오른쪽 정렬 */
  <h2>✡아침에 먹으면 좋은 음식</h2>
  <h3>2020400634 이예린</h3>
  <hr>
- <div> 
+  <h4>로그인 폼</h4>
+ <form name="fo" method="get">
+사용자ID : <input type="text" size="15" value=""><br>
+비밀번호: <input type="password" size="15" value=""> 
+<input type="submit" value="완료">
+<p style="border: 3px dashed rgb(139, 138, 135)"><details>
+  <summary><strong>자기점검지<sub>해당 글자를 클릭하시면 자기점검지를 직접 해보실 수 있습니다.</sub></strong></summary>
+  <p><div style="background-color:rgb(229, 232, 233); padding:20px;">
+    오늘 날짜 : <input type="date" value="2024-11-01"><br>
+    1. 오늘 아침에 가장 먼저 먹었/마셨던 것은 무엇이였나요?
+    <table>
+      <tr><td>ㄴ</td>
+        <td><input type="text"></td></tr>
+        </table>
+    2. 자신의 아침 식습관이 건강하게 실천되고 있는지에 대하여 1~10중에 원하는 숫자만큼 레버를 당겨주세요.
+    <br>
+    <input type="range" min="0" max="100" 
+    list="temperatures">
+     <datalist id="temperatures">
+     <option value="10" label="Low">
+     <option value="50" label="Medium">
+     <option value="90" label="High">
+     </datalist>
+     <br>
+     3. (만점으로 체크 안 한 사람들만 해당) 왜 자신의 아침 식습관의 점수가 만점(10점)이 아닌 이유가 있나요? 있다면 작성해주세요.
+     <br>
+     <form>
+      : <input type="text" value=""><br>
+       </form>
+  </div>
+</p> 
+</details></p>
+  <hr>
 <div>아침에 먹으면 좋은 음식에 관해 모아두었습니다!>..<<br><p></p>음식 버튼을 누르면 해당 음식에 대한 자세한 설명을 볼 수 있습니다.</div>
  <ul id="list">
   <details>
@@ -115,6 +148,16 @@ text-align : right; /* 오른쪽 정렬 */
     <p><b>빈속에 요구르트를 먹으면 위산에 약한 유산균이 대부분 죽어 그 효과가 떨어진다.</b> <br><small> 공복에 요구르트를 먹고 싶다면 <span style="color:rgb(42, 69, 138)"><strong>물</strong></span>을 충분히 마신 후에 먹어 주는 것이 좋다.</small></p>
   </details>
    </div>
+    <body>
+    <hr>
+    <form>
+      <fieldset>
+        <legend>건의함</legend>
+   이곳에 더 알아보고싶은 음식을 적어주세요! : <input type="text" value="">
+   <input type="submit" value="제출">
+   </textarea>
+  </fieldset>
+    </form>
  </div>
  </body>
  </html>
